@@ -2,7 +2,7 @@
 
 # SEED
 
-### [SEED: A Simple and Effective 3D DETR in Point Clouds]()
+### [SEED: A Simple and Effective 3D DETR in Point Clouds](https://arxiv.org/abs/2407.10749)
 
 [Zhe Liu](https://github.com/happinesslz) <sup>1,* </sup>,
 [Jinghua Hou](https://github.com/AlmoonYsl) <sup>1,* </sup>,
@@ -18,6 +18,8 @@
 <br>
 
 **ECCV 2024**
+
+[![arXiv](https://img.shields.io/badge/arXiv-2407.10749-red?logo=arXiv&logoColor=red)](https://arxiv.org/abs/2407.10749)
 
 </div>
 
@@ -50,7 +52,7 @@ We could not provide the above pretrained models due to [Waymo Dataset License A
 
 
 ## TODO
-- [ ] Release the paper.
+- [x] Release the paper.
 - [ ] Release the code of SEED on Waymo.
 - [ ] Release the code of SEED on nuScenes.
 
