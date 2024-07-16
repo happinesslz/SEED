@@ -29,6 +29,7 @@ To this end, we propose a simple and effective 3D DETR method (SEED) for detecti
 ![arch](assets/arch.png)
 
 ## News
+* **2024.07.02**: Our another work [OPEN](https://github.com/AlmoonYsl/OPEN) has also been accepted at ECCV 2024. 🎉
 * **2024.07.02**: SEED has been accepted at ECCV 2024. 🎉
 
 ### Results on Waymo Open
