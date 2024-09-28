@@ -127,3 +127,4 @@ exps/
 /data/sunrgbd/OFFICIAL_SUNRGBD/
 *.obj
 *.ply
+.DS_Store
