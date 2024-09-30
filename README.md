@@ -29,6 +29,7 @@ To this end, we propose a simple and effective 3D DETR method (SEED) for detecti
 ![arch](assets/arch.png)
 
 ## News
+* **2024.09.26**: Our another work [LION](https://github.com/happinesslz/LION) has also been accepted by NeurIPS 2024. 🎉
 * **2024.07.02**: Our another work [OPEN](https://github.com/AlmoonYsl/OPEN) has also been accepted by ECCV 2024. 🎉
 * **2024.07.02**: SEED has been accepted by ECCV 2024. 🎉
 
@@ -54,8 +55,16 @@ We could not provide the above pretrained models due to [Waymo Dataset License A
 
 ## TODO
 - [x] Release the paper.
-- [ ] Release the code of SEED on Waymo.
-- [ ] Release the code of SEED on nuScenes.
+- [x] Release the code of SEED on Waymo.
+
+
+## Training & Inference
+
+* Train all models of SEED on Waymo
+```shell script
+cd tools
+bash run_train_seed.sh
+```
 
 
 ## Citation
