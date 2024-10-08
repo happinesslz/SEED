@@ -583,7 +583,7 @@ class SEEDHead(nn.Module):
 
         dqs_outputs = pred_dicts['dqs_outputs']
         bin_targets = copy.deepcopy(targets)
-        [tgt["labels"].fill_(0) for tgt in bin_targets]
+        # [tgt["labels"].fill_(0) for tgt in bin_targets]
         dqs_losses = self.compute_losses(dqs_outputs, bin_targets)
         for k, v in dqs_losses.items():
             loss_all += v
