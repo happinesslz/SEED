@@ -322,7 +322,7 @@ class DGALayer(nn.Module):
     def __init__(self, d_model, nhead, nlevel, dim_feedforward, dropout, activation, keep_ratio):
         super().__init__()
         self.keep_ratio = keep_ratio
-        self.self_attn = nn.MultiheadAttention(d_model, nhead)
+        self.self_attn = nn.MultiheadAttention(d_model, nhead, batch_first=True)
         self.cross_attn = DeformableBox3dAttention(d_model, nlevel, nhead, with_rotation=False)
         self.linear1 = nn.Linear(d_model, dim_feedforward)
         self.dropout = nn.Dropout(dropout)
